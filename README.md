@@ -1,5 +1,5 @@
-# Pengembangan Program Deteksi _ARP Spoofing_ Sederhana Berbasis Teknik Analisis Lalu Lintas Jaringan Secara _Real-Time_
-Final Project Mata Kuliah Security Operation Center Semester 4 Tahun 2024
+# Implementasi Program Deteksi ARP Spoofing Sederhana Berbasis Teknik Analisis Lalu Lintas Jaringan Secara Real-Time dalam Manajemen Insiden Respons
+Final Project Mata Kuliah Manajemen Insiden Semester 5 Tahun 2024
 
 ## Anggota Kelompok
 1. M. Januar Eko Wicakasono (5027221006)
