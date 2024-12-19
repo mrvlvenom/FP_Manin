@@ -111,6 +111,7 @@ Kemudian jalankan command berikut:
 `python3 [nama_program_python]`
 
 Kemudian mendapatkan output sebagai berikut:
+
 ![image](https://github.com/mrvlvenom/FP_Manin/blob/main/img/4.png)
 
 ### Setup Mikasa dan Zeke (Client Penyerang)
@@ -118,10 +119,12 @@ Kemudian jalankan command berikut:
 `arpspoof -i [interface] -t [IP target] -r [IP host/router]`
 
 Dan Hasilnya seperti berikut:
+
 ![image](https://github.com/mrvlvenom/FP_Manin/blob/main/img/5.png)
 
 ### Hasil Pemantauan oleh Web Server
 Pantau *server* yang menjadi target penyerangan, apabila muncul *alert* seperti gambar di bawah ini maka program detektor berjalan dengan baik. 
+
 ![image](https://github.com/mrvlvenom/FP_Manin/blob/main/img/6.png)
 
 ## Containment
@@ -131,12 +134,15 @@ Kemudian jalankan command berikut:
 `iptables -L -v`
 
 kemudian menghasilkan sebagai berikut:
+
 ![image](https://github.com/mrvlvenom/FP_Manin/blob/main/img/7.png)
 
 Setelah itu penyerang tidak bisa mengirimkan packet ke Web Server (Armin), seperti hasil dibawah ini:
+
 ![image](https://github.com/mrvlvenom/FP_Manin/blob/main/img/8.png)
 
 Di lain sisi, client yang tidak menyerang bisa mengirimkan packet ke Web Server (Armin):
+
 ![image](https://github.com/mrvlvenom/FP_Manin/blob/main/img/9.png)
 
 ## Eradication
@@ -145,6 +151,7 @@ Kemudian jalankan command berikut:
 `iptables -F`
 
 untuk membersihkan penyerang yang sudah terdeteksi oleh web server. Kemudian bisa mengirimkan packet dengan normal:
+
 ![image](https://github.com/mrvlvenom/FP_Manin/blob/main/img/10.png)
 
 ## Recovery
@@ -154,6 +161,7 @@ Setelah jaringan dinyatakan aman, konfigurasi ulang dilakukan untuk memastikan j
 Data dan log dari insiden ARP Spoofing dianalisis untuk mengidentifikasi kelemahan sistem yang memungkinkan serangan terjadi. Wawasan ini digunakan untuk memperkuat konfigurasi jaringan, mengembangkan kebijakan keamanan, dan meningkatkan kemampuan deteksi di masa depan
 
 Dari program python tadi, hasil dari programnya akan dimasukkan ke dalam log.txt, seperti pada gambar:
+
 ![image](https://github.com/mrvlvenom/FP_Manin/blob/main/img/11.png)
 
 ## Documentation
