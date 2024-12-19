@@ -11,7 +11,7 @@ Final Project Mata Kuliah Manajemen Insiden Semester 5 Tahun 2024
 Ikuti langkah-langkah pada [Modul Jarkom - GNS3](https://github.com/lab-kcks/Modul-Jarkom/tree/master/Modul-GNS3)
 
 ### Buat Topologi Simulasi Jaringan
-![Screenshot 2024-06-26 170818](https://github.com/mrvlvenom/FP_Manin/blob/main/arp-spooof-detector.py) <br>
+![Screenshot 2024-06-26 170818](https://github.com/ilhanahmads/FP-SOC-11/assets/127307991/aef06080-285b-42f0-ae09-b6bfbae063f9) <br>
 
 ### *Setup* *Router* dan *Server*
 Kemudian setup konfigurasi pada *router* Erangel seperti berikut:
