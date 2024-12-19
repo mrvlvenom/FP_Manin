@@ -61,7 +61,7 @@ Lakukan instalasi berikut pada setiap *server*:
 - Install pip: `sudo apt install python3-pip -y`
 - Install scapy: `pip3 install scapy`
 
-Kemudian buatlah suatu *file* python yang berisi program [berikut](https://github.com/ilhanahmads/FP-SOC-11/blob/main/arp-spooof-detector.py)
+Kemudian buatlah suatu *file* python yang berisi program [berikut](https://github.com/mrvlvenom/FP_Manin/blob/main/arp-spooof-detector.py)
 
 ### Simulasi Serangan *ARP Spoofing*
 Lakukan instalasi berikut pada device penyerang:
